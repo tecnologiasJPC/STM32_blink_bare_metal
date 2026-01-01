@@ -1,5 +1,6 @@
 /*
 *This code shows how to do a blink for LED on board stm32f411re
+*Este código muestra como hacer parpadar un LED en stm32f411re
 *Made by: Jonathan Pioquinto
 *for tecnologiasjpc
 */
