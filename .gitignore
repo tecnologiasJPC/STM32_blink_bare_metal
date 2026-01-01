@@ -1,0 +1,11 @@
+# Files
+*.uvguix.*
+*.uvoptx
+*.uvprojx.user
+*.dbgconf
+*.dll
+
+# Folders
+Objects/
+Listings/
+RTE/
