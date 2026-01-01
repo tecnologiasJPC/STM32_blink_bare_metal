@@ -18,7 +18,7 @@
 // bit set/reset register - registro de estado de pines
 #define GPIOA_BSRR   *((volatile uint32_t *)0x40020018) 
 
-// Macros basicos 
+// Macros basicos - Basic macros
 #define BIT_SET(reg, bit)    ((reg) |= (1UL << (bit))) 	// pin to 1
 #define BIT_CLEAR(reg, bit)  ((reg) &= ~(1UL << (bit)))	// pin to 0 
 #define BIT_TOGGLE(reg, bit) ((reg) ^= (1UL << (bit)))	// change state of pin
